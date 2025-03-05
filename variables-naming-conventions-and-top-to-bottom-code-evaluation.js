@@ -22,11 +22,21 @@ Things to reflect on:
   - What are the common pitfalls to avoid when naming variables?
   - How do clear variable names benefit team collaboration?
   
-*/
+
 
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
+
+console.log(d);
+
+*/
+
+
+let firstName = "Alice";
+let itemsBought = 5;
+let totalPaid = 20;
+let d = firstName + " bought " + itemsBought + " items for $" + totalPaid + ".";
 
 console.log(d);
