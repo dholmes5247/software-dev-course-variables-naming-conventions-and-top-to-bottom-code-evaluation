@@ -37,6 +37,8 @@ console.log(d);
 let firstName = "Alice";
 let itemsBought = 5;
 let totalPaid = 20;
-let d = firstName + " bought " + itemsBought + " items for $" + totalPaid + ".";
+let itemsReturned = 2;
+let refundedAmount = 12
+let shoppingSpree = firstName + "bought" + itemsBought + "items for $" + totalPaid + "returned" + itemsReturned + "items that were refunded" refundedAmount + ".";
 
-console.log(d);
+console.log(shoppingSpree);
